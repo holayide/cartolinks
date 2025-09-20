@@ -7,7 +7,7 @@ export default function GenerateCards() {
     <>
       {generateTools.map((tool, index) => (
         <div key={index} className="cursor-pointer">
-          <div className="p-0">
+          <div className="">
             <div className="flex items-center gap-2 mb-3">
               <div
                 className="relative aspect-square rounded-[10px] shrink-0"
@@ -51,19 +51,3 @@ export default function GenerateCards() {
     </>
   );
 }
-
-//  {/* {tool.isNew && ( */}
-//                 {/* //   <Badge
-//                         // variant="secondary"
-//                     //     className="text-xs bg-blue-100 text-blue-700 dark:bg-blue-900/30 dark:text-blue-300"
-//                     //   >
-//                     //     New
-//                     //   </Badge>
-//                     // )} */}
-//                 <Button
-//                   //   variant="ghost"
-//                   //   size="sm"
-//                   className="text-xs text-muted-foreground hover:text-foreground"
-//                 >
-//                   Open
-//                 </Button>

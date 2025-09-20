@@ -7,7 +7,7 @@ import GenerateCards from "./generate-cards";
 export default function Generate() {
   return (
     <div className="my-16 my-container">
-      <div className="my-container-inner">
+      <div className="my-container-inner max-w-">
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-xl font-semibold text-foreground">Generate</h3>
           <Button variant="outline" className="flex items-center gap-1">
