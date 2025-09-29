@@ -11,7 +11,6 @@ export default function SliderCard({ card }: SliderCardProps) {
           alt="card"
           fill
           className="object-cover"
-          // w-full h-full
         ></Image>
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/5 to-transparent z-10" />
         <div className="w-full px-6 absolute bottom-6 text-white">
