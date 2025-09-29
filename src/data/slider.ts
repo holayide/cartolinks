@@ -1,5 +1,5 @@
-// import wanImage from '../../../public/wan2.2.webp';
 import wanImage from "../../public/wan2.2.webp";
+import postalImage from "../../public/postal.webp";
 
 export const featuredCards = [
   {
@@ -18,7 +18,7 @@ export const featuredCards = [
     description:
       "We're making Krea available to all FLUX.1 base model users, with the same quality and speed you've come to expect from Krea.",
     buttonText: "Try Open Source",
-    image: "/postal.webp",
+    image: postalImage,
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const featuredCards = [
     description:
       "Tailored solutions for enterprise clients with dedicated support and custom model training.",
     buttonText: "Contact Sales",
-    image: "/postal.webp",
+    image: postalImage,
   },
   {
     id: 5,

@@ -13,6 +13,6 @@ export interface SliderCardProps {
     subtitle: string;
     description: string;
     buttonText: string;
-    image: string | StaticImageData;
+    image: StaticImageData;
   };
 }
