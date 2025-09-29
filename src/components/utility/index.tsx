@@ -13,7 +13,13 @@ export default function Utility() {
             key={`${item.label}s`}
             className="flex items-center gap-1 bg-primary-100 px-2 py-1 rounded-2xl"
           >
-            <Image src={item.src} alt={item.label} width={15} height={15} />
+            <Image
+              src={item.src}
+              alt={item.label}
+              width={15}
+              height={15}
+              className="invert-0 dark:invert"
+            />
             <span className="text-[10px] font-semibold">{item.label}</span>
           </div>
         ))}
