@@ -6,7 +6,7 @@ export const featuredCards = [
     description:
       "Generate complex images with the brand new and powerful WAN2.2 model. Exceptional prompt adherence and ultra-realistic textures",
     buttonText: "Try WAN 2.2",
-    image: "../../wan2.2.webp",
+    image: "/wan2.2.webp",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const featuredCards = [
     description:
       "We're making Krea available to all FLUX.1 base model users, with the same quality and speed you've come to expect from Krea.",
     buttonText: "Try Open Source",
-    image: "../../postal.webp",
+    image: "/postal.webp",
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const featuredCards = [
     description:
       "Professional tier with additional features and higher resolution outputs for commercial use.",
     buttonText: "Try Pro Version",
-    image: "../../wan2.2.webp",
+    image: "/wan2.2.webp",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const featuredCards = [
     description:
       "Tailored solutions for enterprise clients with dedicated support and custom model training.",
     buttonText: "Contact Sales",
-    image: "../../postal.webp",
+    image: "/postal.webp",
   },
   {
     id: 5,
@@ -42,6 +42,6 @@ export const featuredCards = [
     description:
       "Generate images directly from your mobile device with our dedicated iOS and Android apps.",
     buttonText: "Download App",
-    image: "../../wan2.2.webp",
+    image: "/wan2.2.webp",
   },
 ];
