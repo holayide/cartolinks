@@ -1,3 +1,5 @@
+import { StaticImageData } from "next/image";
+
 export interface SliderNavigationProps {
   setCurrentSlide: React.Dispatch<React.SetStateAction<number>>;
   currentSlide: number;
@@ -11,6 +13,6 @@ export interface SliderCardProps {
     subtitle: string;
     description: string;
     buttonText: string;
-    image: string;
+    image: string | StaticImageData;
   };
 }

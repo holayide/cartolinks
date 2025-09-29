@@ -1,3 +1,6 @@
+// import wanImage from '../../../public/wan2.2.webp';
+import wanImage from "../../public/wan2.2.webp";
+
 export const featuredCards = [
   {
     id: 1,
@@ -6,7 +9,7 @@ export const featuredCards = [
     description:
       "Generate complex images with the brand new and powerful WAN2.2 model. Exceptional prompt adherence and ultra-realistic textures",
     buttonText: "Try WAN 2.2",
-    image: "/wan2.2.webp",
+    image: wanImage,
   },
   {
     id: 2,
@@ -24,7 +27,7 @@ export const featuredCards = [
     description:
       "Professional tier with additional features and higher resolution outputs for commercial use.",
     buttonText: "Try Pro Version",
-    image: "/wan2.2.webp",
+    image: wanImage,
   },
   {
     id: 4,
@@ -42,6 +45,6 @@ export const featuredCards = [
     description:
       "Generate images directly from your mobile device with our dedicated iOS and Android apps.",
     buttonText: "Download App",
-    image: "/wan2.2.webp",
+    image: wanImage,
   },
 ];
