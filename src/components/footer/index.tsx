@@ -16,13 +16,16 @@ export default function Footer() {
               variant="teriary"
               className="py-1.5 flex items-center gap-1.5"
             >
-              <BookCopy size={20} />
-              <span className="text-base font-medium">Legal</span>
+              <BookCopy size={15} />
+              <span className="text-xs font-medium">Legal</span>
             </Button>
             <span className="font-semibold text-blue-600">r</span>
-            <Button variant="teriary" className="py-1.5 flex items-center">
-              <CreditCard size={18} />
-              <span className="text-base font-medium">Pricing</span>
+            <Button
+              variant="teriary"
+              className="py-1.5 flex items-center gap-1.5"
+            >
+              <CreditCard size={15} />
+              <span className="text-xs font-medium">Pricing</span>
             </Button>
           </div>
         </div>
